@@ -4,7 +4,6 @@
 	$censoredString = str_ireplace($bannedWord, '***', $string);
 ?>
 
-
 <h1>Frase: <?php echo $string ?>  </h1>
 <h2>Lunghezza della frase: <?php  echo strlen($string) ?> </h2>
 <h2>Parola non consentita: <?php echo $bannedWord ?> </h2>
